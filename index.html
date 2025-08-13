@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="bg-blue-50">
 
 <head>
     <meta charset="UTF-8">
@@ -13,16 +13,26 @@
     <!-- Poppins Font Link -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<body class="font-poppins">
-    
-    <header>
+<body class="font-poppins mx-32 mt-6">
+
+    <header class="bg-white rounded-2xl p-6">
         <!-- The nav section will go here -->
-        <nav>
+        <nav class="flex justify-between items-center">
+            <div class="flex items-center w-12 ">
+                <img src="./assets/logo.png" alt="">
+                <h1 class="text-4xl font-light">Dev<span class="font-bold">Board</span></h1>
+            </div>
+            <div class="flex gap-9">
+                <div class="flex items-center gap-1 font-bold text-xl bg-blue-50 p-2 rounded-3xl w-20 justify-center"><img src="./assets/checkbox.png" alt="">23</div>
+                <button id="color-wheel" class="p-2 bg-blue-50 btn btn-circle"><img src="./assets/theme-btn.png" alt=""></button>
+            </div>
         </nav>
     </header>
 
     <main>
     </main>
+    <!-- All the JS links are here -->
+    <script src="./scripts/colorwheel.js"></script>
 </body>
 
 </html>

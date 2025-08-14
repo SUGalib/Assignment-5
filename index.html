@@ -45,7 +45,7 @@
                 </div>
             </div>
 
-            <div class="bg-[#3752FD] m-6 flex gap-2 items-center p-8 rounded-xl">
+            <div id="discovery" class="bg-[#3752FD] m-6 flex gap-2 items-center p-8 rounded-xl cursor-pointer">
                 <div class="w-16">
                     <img src="./assets/board.png" alt="">
                 </div>
@@ -180,9 +180,14 @@
                 </div>
              </div>
         </section>
-
-
     </main>
+    
+    <script>
+        // key to another page
+        document.getElementById('discovery').addEventListener('click', function(){
+             window.location.href = 'QnA.html'
+        })
+    </script>
 
     <!-- All the JS links are here -->
     <script src="./scripts/colorwheel.js"></script>

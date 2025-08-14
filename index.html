@@ -24,7 +24,8 @@
             </div>
             <div class="flex gap-9">
                 <div class="flex items-center gap-1 font-bold text-xl bg-blue-50 p-2 rounded-3xl w-20 justify-center">
-                    <img src="./assets/checkbox.png" alt="">23
+                    <img src="./assets/checkbox.png" alt=""><p id="task-completed">23</p>
+
                 </div>
                 <button id="color-wheel" class="p-2 bg-blue-50 btn btn-circle"><img src="./assets/theme-btn.png"
                         alt=""></button>
@@ -40,7 +41,7 @@
                 </div>
                 <div>
                     <p class="font-medium opacity-80">Task Assigned</p>
-                    <h3 class="font-bold text-3xl">05</h3>
+                    <h3 class="font-bold text-3xl">0<span id="task-assigned">6</span></h3>
                 </div>
             </div>
 
@@ -67,14 +68,14 @@
                     <div class="card bg-blue-50 rounded-2xl">
                         <div class="card-body p-4">
                             <div class="badge badge-outline bg-white p-4 rounded-lg border-none">Shoptase</div>
-                            <h3 class="font-medium text-lg">Fix Mobile Button Issue</h3>
+                            <h3 class="font-medium text-lg" id="task-1">Fix Mobile Button Issue</h3>
                             <p class="opacity-50 bg-white p-4 rounded-lg">Debug using Chrome DevTools, check for
                                 overlap...</p>
                             <div class="mt-2 flex gap-2">
                                 <p class="text-xs"><span class="opacity-70">Deadline</span><br><span
                                         class="font-medium">14 August 2025</span></p>
-                                <span
-                                    class="btn bg-[#3752FD] p-5 rounded-lg items-center text-xs text-white font-medium">Completed</span>
+                                <button
+                                    class="btn bg-[#3752FD] p-5 rounded-lg items-center text-xs text-white font-medium" id="card-1">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -83,14 +84,14 @@
                     <div class="card bg-blue-50 rounded-2xl">
                         <div class="card-body p-4">
                             <div class="badge badge-outline bg-white p-4 rounded-lg border-none">CloudSync</div>
-                            <h3 class="font-medium text-lg">Add Dark Mode</h3>
+                            <h3 class="font-medium text-lg"id="task-2">Add Dark Mode</h3>
                             <p class="opacity-50 bg-white p-4 rounded-lg">Store the user's preference in localStorage,
                                 update CSS variables dynamically, and apply a smooth transition effect.</p>
                             <div class="mt-2 flex gap-2">
                                 <p class="text-xs"><span class="opacity-70">Deadline</span><br><span
                                         class="font-medium">14 August 2025</span></p>
-                                <span
-                                    class="btn bg-[#3752FD] p-5 rounded-lg items-center text-xs text-white font-medium">Completed</span>
+                                <button
+                                   class="btn bg-[#3752FD] p-5 rounded-lg items-center text-xs text-white font-medium" id="card-2">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -99,15 +100,15 @@
                     <div class="card bg-blue-50 rounded-2xl">
                         <div class="card-body p-4">
                             <div class="badge badge-outline bg-white p-4 rounded-lg border-none">SwiftPay</div>
-                            <h3 class="font-medium text-lg">Optimize Home page </h3>
+                            <h3 class="font-medium text-lg " id="task-3">Optimize Home page </h3>
                             <p class="opacity-50 bg-white p-4 rounded-lg">Debug using Chrome DevTools, check for
                                 overlapping elements, and ensure onClick works properly
                                 and ensure onClick works properly</p>
                             <div class="mt-2 flex gap-2">
                                 <p class="text-xs"><span class="opacity-70">Deadline</span><br><span
                                         class="font-medium">14 August 2025</span></p>
-                                <span
-                                    class="btn bg-[#3752FD] p-5 rounded-lg items-center text-xs text-white font-medium">Completed</span>
+                                <button
+                                   class="btn bg-[#3752FD] p-5 rounded-lg items-center text-xs text-white font-medium" id="card-3">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -116,15 +117,15 @@
                     <div class="card bg-blue-50 rounded-2xl">
                         <div class="card-body p-4">
                             <div class="badge badge-outline bg-white p-4 rounded-lg border-none">Meta</div>
-                            <h3 class="font-medium text-lg">Add new emoji 🤲</h3>
+                            <h3 class="font-medium text-lg" id="task-4">Add new emoji 🤲</h3>
                             <p class="opacity-50 bg-white p-4 rounded-lg">Debug using Chrome DevTools, check for
                                 overlapping elements, and ensure onClick works properly
                                 and ensure onClick works properly</p>
                             <div class="mt-2 flex gap-2">
                                 <p class="text-xs"><span class="opacity-70">Deadline</span><br><span
                                         class="font-medium">14 August 2025</span></p>
-                                <span
-                                    class="btn bg-[#3752FD] p-5 rounded-lg items-center text-xs text-white font-medium">Completed</span>
+                                <button
+                                 class="btn bg-[#3752FD] p-5 rounded-lg items-center text-xs text-white font-medium" id="card-4">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -133,15 +134,15 @@
                     <div class="card bg-blue-50 rounded-2xl">
                         <div class="card-body p-4">
                             <div class="badge badge-outline bg-white p-4 rounded-lg border-none">Google LLC</div>
-                            <h3 class="font-medium text-lg">Integrate OpenAI API </h3>
+                            <h3 class="font-medium text-lg" id="task-5">Integrate OpenAI API </h3>
                             <p class="opacity-50 bg-white p-4 rounded-lg">Debug using Chrome DevTools, check for
                                 overlapping elements, and ensure onClick works properly
                                 and ensure onClick works properly</p>
                             <div class="mt-2 flex gap-2">
                                 <p class="text-xs"><span class="opacity-70">Deadline</span><br><span
                                         class="font-medium">14 August 2025</span></p>
-                                <span
-                                    class="btn bg-[#3752FD] p-5 rounded-lg items-center text-xs text-white font-medium">Completed</span>
+                                <button
+                                 class="btn bg-[#3752FD] p-5 rounded-lg items-center text-xs text-white font-medium " id="card-5">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -150,15 +151,15 @@
                     <div class="card bg-blue-50 rounded-2xl">
                         <div class="card-body p-4">
                             <div class="badge badge-outline bg-white p-4 rounded-lg border-none">Glassdoar</div>
-                            <h3 class="font-medium text-lg">Improve Job searching</h3>
+                            <h3 class="font-medium text-lg" id="task-6">Improve Job searching</h3>
                             <p class="opacity-50 bg-white p-4 rounded-lg">Debug using Chrome DevTools, check for
                                 overlapping elements, and ensure onClick works properly
                                 and ensure onClick works properly</p>
                             <div class="mt-2 flex gap-2">
                                 <p class="text-xs"><span class="opacity-70">Deadline</span><br><span
                                         class="font-medium">14 August 2025</span></p>
-                                <span
-                                    class="btn bg-[#3752FD] p-5 rounded-lg items-center text-xs text-white font-medium">Completed</span>
+                                <button
+                                  class="btn bg-[#3752FD] p-5 rounded-lg items-center text-xs text-white font-medium " id="card-6">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -171,12 +172,10 @@
                         <img src="./assets/activity.png" alt="">
                         <h3 class="text-lg font-medium">Activity Log</h3>
                     </div>
-                    <button class="btn bg-[#3752FD] font-medium text-white text-center p-3 rounded-lg w-8/12">Clear History</button>
+                    <button id="clear-history" class="btn bg-[#3752FD] font-medium text-white text-center p-3 rounded-lg w-8/12">Clear History</button>
                 </div>
                 <div>
-                    <ul class="text-sm space-y-2 bg-blue-50 opacity-70 rounded-lg p-2 mr-4">
-                        <li>I completed the assignment well kind of.</li>
-                        <li>I completed the assignment well kind of.</li>
+                    <ul id="activity" class="text-sm space-y-2 opacity-70 rounded-lg p-2 mr-4 mb-2">        
                     </ul>
                 </div>
              </div>
@@ -188,6 +187,7 @@
     <!-- All the JS links are here -->
     <script src="./scripts/colorwheel.js"></script>
     <script src="./scripts/currentDate.js"></script>
+    <script src="./scripts/numbers.js"></script>
 </body>
 
 </html>
